@@ -1,0 +1,45 @@
+:root {
+    --nav-height: 60px;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+nav {
+    background-color: plum;
+    display: flex;
+    justify-content: space-between;
+    height: var(--nav-height);
+}
+
+nav h4 {
+    line-height: var(--nav-height);
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    width: 400px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: auto;
+    list-style: none;
+}
+
+nav ul li a {
+    color: lightgray;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
